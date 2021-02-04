@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCounter } from '../Hooks/useCounter'
+import { useCounter } from '../../Hooks/useCounter'
 
 import './styles/Counter.css'
 

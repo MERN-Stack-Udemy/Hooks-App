@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { FormWithCustomHook } from './Components/02-useEffect/FormWithCustomHook';
+
 // import { Counter } from '. /Components/01-useState/Counter';
 // import { CounterWithCustomHook } from './Components/01-useState/CounterWithCustomHook';
-import { SimpleForm } from './Components/02-useEffect/SimpleForm';
+// import { SimpleForm } from './Components/02-useEffect/SimpleForm';
 // import { HookApp } from './HookApp';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <SimpleForm />,
+    <FormWithCustomHook />,
   document.getElementById('root')
 );
 

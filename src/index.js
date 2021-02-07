@@ -13,10 +13,11 @@ import './global.css'
 // import reportWebVitals from './reportWebVitals';
 // import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
 // import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
-import { Memorize } from './Components/06-memos/Memorize';
+// import { Memorize } from './Components/06-memos/Memorize';
+import { MemoHook } from './Components/06-memos/MemoHook';
 
 ReactDOM.render(
-    <Memorize />, 
+    <MemoHook />, 
   document.getElementById('root')
 );
  

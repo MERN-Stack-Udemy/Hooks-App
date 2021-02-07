@@ -12,10 +12,11 @@ import './global.css'
 // import { HookApp } from './HookApp';
 // import reportWebVitals from './reportWebVitals';
 // import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
-import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
+// import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
+import { Memorize } from './Components/06-memos/Memorize';
 
 ReactDOM.render(
-    <LayoutEffect />, 
+    <Memorize />, 
   document.getElementById('root')
 );
  

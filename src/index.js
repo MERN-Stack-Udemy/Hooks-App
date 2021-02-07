@@ -11,10 +11,11 @@ import './global.css'
 // import { SimpleForm } from './Components/02-useEffect/SimpleForm';
 // import { HookApp } from './HookApp';
 // import reportWebVitals from './reportWebVitals';
-import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
+// import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
+import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
 
 ReactDOM.render(
-    <RealExampleRef />, 
+    <LayoutEffect />, 
   document.getElementById('root')
 );
  

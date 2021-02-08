@@ -14,10 +14,11 @@ import './global.css'
 // import { RealExampleRef } from './Components/04-useRef/RealExampleRef';
 // import { LayoutEffect } from './Components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './Components/06-memos/Memorize';
-import { MemoHook } from './Components/06-memos/MemoHook';
+// import { MemoHook } from './Components/06-memos/MemoHook';
+import { CallbackHook } from './Components/06-memos/CallbackHook';
 
 ReactDOM.render(
-    <MemoHook />, 
+    <CallbackHook />, 
   document.getElementById('root')
 );
  

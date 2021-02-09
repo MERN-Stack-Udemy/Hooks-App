@@ -18,10 +18,11 @@ import './global.css'
 // import { CallbackHook } from './Components/06-memos/CallbackHook';
 // import { Padre } from './Components/07-tarea-memo/Padre';
 // import './Components/08-useReducer/intro-reducer'
-import { TodoApp } from './Components/08-useReducer/TodoApp';
+// import { TodoApp } from './Components/08-useReducer/TodoApp';
+import { MainApp } from './Components/09-useContext/MainApp';
 
 ReactDOM.render(
-    <TodoApp />, 
+    <MainApp />, 
   document.getElementById('root')
 );
  

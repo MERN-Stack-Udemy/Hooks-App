@@ -38,7 +38,10 @@ export const TodoForm = ({ dispatch }) => {
         value={description}
       />
 
-      <button className="btn btn-outline-primary mt-2 btn-block" type="submit">
+      <button 
+        className="btn btn-outline-primary mt-2 btn-block" 
+        type="submit"
+      >
         Add
       </button>
     </form>

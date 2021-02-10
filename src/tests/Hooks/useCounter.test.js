@@ -36,8 +36,7 @@ describe('Test on custom hook useCounter ', () => {
 
   test('should to return initial value when calls reset', () => {
     const { result } = renderHook( () => useCounter(70) )
-    const { increment }= result.current;
-    const { reset }= result.current;
+    const { increment, reset }= result.current;
 
     act( () => increment() );
     expect( result.current.counter ).toBe( 71);

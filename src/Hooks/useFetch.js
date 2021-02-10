@@ -25,15 +25,22 @@ export const useFetch = ( url ) => {
         .then( resp => resp.json())
         .then( data => {
   
-            if(isMounted.current){
-              setState({
-                data,
-                error: null,
-                loading: false
-              });
-            }
+          if(isMounted.current){
+            setState({
+              data,
+              error: null,
+              loading: false
+            });
+          }
       
-        });
+        })
+        .catch( () => {
+          setState({
+            data:null,
+            loading: false,
+            error: 'request could not be fulfilled',
+          })
+        })
     }
   }, [url]);
   

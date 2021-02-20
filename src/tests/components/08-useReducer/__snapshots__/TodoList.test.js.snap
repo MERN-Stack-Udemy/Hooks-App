@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <TodoList /> should match to snapshot 1`] = `
+<ul
+  className="list-group list-group-flush"
+>
+  <TodoListItem
+    index={0}
+    key="1"
+    todo={
+      Object {
+        "desc": "learn React",
+        "done": false,
+        "id": 1,
+      }
+    }
+  />
+  <TodoListItem
+    index={1}
+    key="2"
+    todo={
+      Object {
+        "desc": "learn Mongo DB",
+        "done": false,
+        "id": 2,
+      }
+    }
+  />
+</ul>
+`;

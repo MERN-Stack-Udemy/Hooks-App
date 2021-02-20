@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test on MultipleCustomHooks should to match snapshot 1`] = `
+<div>
+  <h3>
+    Breaking Bad Quotes 
+  </h3>
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary m-1"
+    onClick={[Function]}
+  >
+    Previus Quote
+  </button>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote
+  </button>
+</div>
+`;

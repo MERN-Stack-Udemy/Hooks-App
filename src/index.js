@@ -19,10 +19,12 @@ import './global.css'
 // import { Padre } from './Components/07-tarea-memo/Padre';
 // import './Components/08-useReducer/intro-reducer'
 // import { TodoApp } from './Components/08-useReducer/TodoApp';
-import { MainApp } from './Components/09-useContext/MainApp';
+// import { MainApp } from './Components/09-useContext/MainApp';
+import Rutas from './Rutas';
+
 
 ReactDOM.render(
-    <MainApp />, 
+    <Rutas />, 
   document.getElementById('root')
 );
  

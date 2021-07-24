@@ -11,8 +11,8 @@ export const LoginScreen = () => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     setUser({
-      id: new Date().getTime(),
-      name: userName
+      id: 123, //new Date().getTime(),
+      name:'smog' //userName
     })
   }
 
